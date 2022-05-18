@@ -433,7 +433,7 @@ a:hover {
   padding: 20px 0;
 }
 #header .logo {
-  font-size: 28px;
+  font-size: 28px;  
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -447,7 +447,8 @@ a:hover {
 }
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
-  padding: 12px 0;
+  padding-top: 12px;
+  padding-bottom: 2px;
 }
 
 /*--------------------------------------------------------------
@@ -457,7 +458,8 @@ a:hover {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 .navbar ul {
   margin: 0;
